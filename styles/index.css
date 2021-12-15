@@ -1,0 +1,25 @@
+body {
+  background-color: #04060a;
+  color: #fee9e1;
+}
+
+body h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body a {
+  text-decoration: none;
+  color: #ff8000;
+}
+
+body div {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+}
+/*# sourceMappingURL=index.css.map */

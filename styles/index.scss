@@ -1,0 +1,17 @@
+body {
+  background-color: #04060a;
+  color: #fee9e1;
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+  a {
+    text-decoration: none;
+    color: #ff8000;
+  }
+  div {
+    display: grid;
+
+    justify-items: center;
+  }
+}

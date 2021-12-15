@@ -1,0 +1,26 @@
+body {
+  background-color: #04060a;
+  color: #fee9e1;
+  a {
+    text-decoration: none;
+    color: #ff8000;
+  }
+  h3 {
+    width: fit-content;
+    border-bottom: 1.5px solid #ff8000;
+  }
+  .desc-block {
+    display: flex;
+    justify-content: space-between;
+    img {
+      display: block;
+      max-width: 50vw;
+      height: 50vh;
+      object-fit: cover;
+    }
+    .desc-para {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+body {
+  background-color: #04060a;
+  color: #fee9e1;
+}
+
+body a {
+  text-decoration: none;
+  color: #ff8000;
+}
+
+body h3 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-bottom: 1.5px solid #ff8000;
+}
+
+body .desc-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .desc-block img {
+  display: block;
+  max-width: 50vw;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body .desc-block .desc-para {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=recipe.css.map */
